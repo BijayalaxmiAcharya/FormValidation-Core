@@ -1,0 +1,33 @@
+.signup{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    background-color: whitesmoke;
+    gap: 10px;
+}
+
+form input{
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+form #signup-btn{
+    margin: 20px 0 10px 0 ;
+}
+
+#error-txt{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+
+}
